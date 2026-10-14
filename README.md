@@ -9,3 +9,4 @@ Static bilingual site for EquaLex GmbH. English is the default (`/`), German liv
 No build step: the files are served as they are by GitHub Pages.
 
 To regenerate the pages after editing text in `tools/build.py` or styles in `assets/style.css`, run `python3 tools/build.py .` from the repo root. It also updates the stylesheet version tag so browsers fetch the new styles.
+- `assets/logo/` – EquaLex logo as SVG, for dark and light backgrounds (rebuilt from the original logos.psd; regenerate with `tools/logo/make_logo.py`)
