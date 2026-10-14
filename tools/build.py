@@ -72,7 +72,7 @@ def home(t, base, other_lang):
       <a class="button" href="#{t["id_contact"]}">{t["cta"]}</a>
     </div>
     <figure>
-      <img src="{base}assets/img/richard-whittle-2026.jpg" alt="{t["portrait_alt"]}" width="600" height="600">
+      <img src="{base}assets/img/richard-whittle-portrait.jpg" alt="{t["portrait_alt"]}" width="600" height="600">
       <figcaption><strong>Richard Whittle</strong>{t["caption"]}</figcaption>
     </figure>
   </div>
