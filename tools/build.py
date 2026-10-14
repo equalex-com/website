@@ -66,6 +66,7 @@ def home(t, base, other_lang):
   <div class="wrap hero">
     <div>
       <h1>{t["h1"]}</h1>
+      <p class="strapline">{t["strapline"]}</p>
       <p class="intro">{t["intro"]}</p>
       <a class="button" href="#{t["id_contact"]}">{t["cta"]}</a>
     </div>
@@ -139,6 +140,7 @@ EN = dict(
     skip="Skip to content", home="home", navlabel="Main", nav_home="Home",
     nav_services="Services", nav_about="About", nav_contact="Contact",
     id_services="services", id_about="about", id_contact="contact",
+    strapline="Uniting disability equality with business",
     h1="Advice on disability equality law for organisations that want to get it right",
     intro="EquaLex is a consultancy based in Zurich. We help businesses, public bodies and non-governmental organisations understand their obligations under disability equality law and turn them into practical, meaningful compliance.",
     cta="Get in touch", portrait_alt="Portrait of Richard Whittle",
@@ -191,6 +193,7 @@ DE = dict(
     skip="Zum Inhalt springen", home="Startseite", navlabel="Hauptnavigation", nav_home="Startseite",
     nav_services="Leistungen", nav_about="Über uns", nav_contact="Kontakt",
     id_services="leistungen", id_about="ueber-uns", id_contact="kontakt",
+    strapline="Behindertengleichstellung und Wirtschaft im Einklang",
     h1="Beratung im Gleichstellungsrecht für Menschen mit Behinderungen",
     intro="EquaLex ist ein Beratungsunternehmen mit Sitz im Kanton Zürich. Wir unterstützen Unternehmen, Behörden und Nichtregierungsorganisationen dabei, ihre Pflichten aus dem Behindertengleichstellungsrecht zu verstehen und wirksam umzusetzen.",
     cta="Kontakt aufnehmen", portrait_alt="Porträt von Richard Whittle",
